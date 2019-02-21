@@ -7,8 +7,6 @@ def oxford_comma(array)
     array.pop()
     # push the newConnector to our array and convert it to a string separated by commas
     return array.push(newConnector).join(", ")
-    
-  
   else
   return array.join(" and ")
   end
