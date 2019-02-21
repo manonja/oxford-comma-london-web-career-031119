@@ -5,7 +5,7 @@ def oxford_comma(array)
   map { |e| e.join ' and ' }.
   join(', ')
   else
-  return array.join(" and")
+  return array.join(" and ")
   end
 
 end
