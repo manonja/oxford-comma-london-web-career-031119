@@ -3,8 +3,8 @@ def oxford_comma(array)
     e_but_last = array[0..array.length - 1]
     lastE = array[array.length- 2...array.length - 1]
     puts [e_but_last, lastE].
-      map { |e| e.join ', ' }.
-        join(' and ')
+      map { |e| e.join ", " }.
+        join(" and ")
   else
     puts array.join(" and ")
   end
